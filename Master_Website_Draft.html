@@ -12,7 +12,7 @@
 
 
 
-<!-- Test comment -->
+
 
   <!-- Navigation Page -->
 
@@ -88,7 +88,7 @@
     <div class="single-image-display">
         <div class="content-text">
             <p>Welcome to our car detailing service! We are passionate about providing exceptional detailing services to ensure your vehicle looks its best.</p>
-            <p>Our team of experienced professionals uses top-quality products and techniques to deliver outstanding results. Whether you need a thorough 
+            <p>Our team of experienced professionals uses top-quality products and techniques to deliver outstanding results. Whether you need a thorough
             interior cleaning, exterior waxing, or paint correction, we've got you covered.</p>
             <p>At our car detailing service, customer satisfaction is our top priority. We strive to exceed your expectations with every visit.</p>
             <p>Thank you for choosing us for your car detailing needs!</p>
@@ -315,10 +315,32 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span>
         <!-- Add more dots as needed for each image -->
     </div>
 </section>
+
+<!-- FAQ Page -->
+
+<section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-items">
+        <div class="faq-item">
+            <h3>Question 1?</h3>
+            <p>Answer to question 1 goes here.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Question 2?</h3>
+            <p>Answer to question 2 goes here.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Question 3?</h3>
+            <p>Answer to question 3 goes here.</p>
+        </div>
+        <!-- Add more FAQ items as needed -->
+    </div>
+</section>
+
 
 <script>
 var slideIndex = 1;
@@ -336,15 +358,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
