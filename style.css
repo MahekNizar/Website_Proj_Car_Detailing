@@ -41,21 +41,27 @@ body, html {
 
 
 .hero {
-    background-color: #f4f4f4;
     padding: 4rem; /* Increased padding */
     min-height: 500px; /* Or whatever height you prefer */
     text-align: center;
-    background-image: url('car1.png'); /* Add your image path */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('car1.png'); /* Fading effect with semi-transparent overlay */
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the background image */
-    color: white; /* Adjust text color for better readability if needed */
-    /* Existing properties */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay if needed */
+    color: white; /* Adjust text color for better readability */
 }
 
-    .hero h1, .hero p {
+    .hero h1 {
+        font-size: 3rem; /* Increased font size */
+        font-weight: bold; /* Make text bold */
         text-shadow: 2px 2px 4px #000; /* Text shadow for better readability */
     }
+
+    .hero p {
+        font-size: 1.5rem; /* Increased font size */
+        font-weight: bold; /* Make text bold */
+        text-shadow: 2px 2px 4px #000; /* Text shadow for better readability */
+    }
+
 
 
 
