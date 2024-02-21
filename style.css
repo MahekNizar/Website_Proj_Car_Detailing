@@ -256,14 +256,13 @@ footer {
 /* FAQ Section Styles */
 .faq {
     background-color: #f4f4f4;
-    padding: 2px;
+    padding: 2rem;
     text-align: center;
-    font-size: 18px;
-    
+    font-size: 16px;
 }
 
 .faq h2 {
-    margin-bottom: 2px;
+    margin-bottom: 2rem;
 }
 
 .faq-items {
@@ -274,8 +273,8 @@ footer {
 
 .faq-item {
     background: white;
-    padding: 1.5px;
-    margin: 1px;
+    padding: 1.5rem;
+    margin: 1rem;
     width: 40%; /* Adjust width as needed */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 8px;
