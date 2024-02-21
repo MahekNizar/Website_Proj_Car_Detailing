@@ -42,13 +42,20 @@ body, html {
 
 .hero {
     background-color: #f4f4f4;
-    padding: 2rem;
+    padding: 4rem; /* Increased padding */
+    min-height: 500px; /* Or whatever height you prefer */
     text-align: center;
-    overflow: hidden;
-    width: 100%;
-    top: 0;
-    left: 0;
+    background-image: url('car1.png'); /* Add your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    color: white; /* Adjust text color for better readability if needed */
+    /* Existing properties */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay if needed */
 }
+
+    .hero h1, .hero p {
+        text-shadow: 2px 2px 4px #000; /* Text shadow for better readability */
+    }
 
 
 
