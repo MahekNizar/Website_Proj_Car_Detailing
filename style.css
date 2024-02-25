@@ -34,6 +34,11 @@ body, html {
     color: white;
     text-decoration: none;
 }
+.nav-links li a:hover {
+
+  color: #B0C4DE;
+}
+
 
 
 
@@ -440,3 +445,13 @@ footer {
 .descrip{
       font-size: 12px;
 }
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+
+  color: LightSteelBlue;
+}
+
